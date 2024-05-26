@@ -1,12 +1,12 @@
 p{
     font-size: 30pt;
     color: rgb(242, 111, 17) ;
-    font-family:"fantasy";
+    font-family: fantasy;
     text-align: center;
 }
 h1{
-    font-size: 18pt;
-    font-family: "fantasy;";
+    font-size: 15pt;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
     text-align: center;
     padding: 10px 50px;
 }
@@ -29,7 +29,8 @@ hr{
     border-radius: 50px;
 }
 h2{
-    padding: 10px 540px;
+    padding: 10px 600px;
+    font-family: fantasy;
 }
 .pic{
     height: auto;
@@ -58,10 +59,42 @@ h2{
 .side{
     height: 550px;
     width: 100%;
+    margin: 0 0 0 0;
 }
 .manecards{
     display: flex;
     height: auto;
     width: 100%;
 
+}
+.manecardss{
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    width: 100%;
+    background-color: white;
+    padding: 40px 0 0 0;
+}
+ul{
+    color:rgb(243, 120, 32);
+    font-size: 15pt;
+    margin: 10px;
+    font-family: fantasy;
+}
+li{
+    font-size: 13pt;
+    margin: 5px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    
+}
+.ss{
+    height: 90px;
+    width: auto;
+}
+.last{
+    height: 40px;
+    width: 100%;
+    background-color:rgb(243, 120, 32) ;
+    text-align: center;
+    padding: 10px 0;
 }

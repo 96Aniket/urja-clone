@@ -20,15 +20,15 @@
 }
 .pages{
     color: white;
-    font-size: 15pt;
-    margin: 25px 0 0 8px;
-    font-family:  "fantasy";
+    font-size: 13pt;
+    margin: 25px 0 0 4px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 .pagess{
     color: white;
-    font-size: 15pt;
-    margin: 25px 0 0 340px;
-    font-family:  "fantasy";
+    font-size: 13pt;
+    margin: 25px 0 0 250px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 .logosname{
     height: 50px;
