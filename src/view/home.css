@@ -1,0 +1,46 @@
+.brandlogo{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 3px solid;
+    padding: 5 0 0 10px;
+}
+.li{
+    padding: 0 0 0 200px;
+}
+.container-fluid{
+    background-color: rgb(242, 111, 17);
+    
+    
+    height: 100px;
+    
+}
+.pages{
+    color: white;
+    font-size: 15pt;
+    padding: 12px 0 0 8px;
+    font-family: "Times New Roman", serif;
+}
+.pagess{
+    color: white;
+    font-size: 15pt;
+    padding: 12px 0 0 150px;
+    font-family: "Times New Roman", serif;
+}
+.logosname{
+    height: 65px;
+   
+    
+    
+    padding: 10px 0 0 10px;
+}
+body{
+    background-image: url("../image/4907157.jpg");
+    position:fixed;
+    background-size: cover;
+}
+.infor{
+    font-size: 20pt;
+    color: rgb(242, 111, 17) ;
+    font-family: "Times New Roman", serif;
+}
