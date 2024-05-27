@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import Home from './component/home';
 import {Reg} from '../src/component/Career/Registration';
-import OurNetwork from '../src/component/Presence/OurNetwork';
+import { OurNetwork } from  '../src/component/Presence/OurNetwork';
 
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
   const routes=createBrowserRouter([

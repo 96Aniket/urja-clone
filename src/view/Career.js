@@ -8,7 +8,7 @@ import { Reg } from "../Component/Career/Registration";
 export function Form(){
     return(
         <>
-
+<Home/>
         <Reg img={img}/>
         
         </>

@@ -6,6 +6,7 @@ import img from '../image/ournetwork-img.jpg'
 export function Network(){
     return(
 <>
+<Home/>
 <Section img={img}/>
 <OurNetwork h1='Vyapar Udyog Prakisthan' h2='Shri Shyam Motors' h3='Jai Ambay Traders' info1='Prakisthan Building, Opp. Godown no 4 Bais Godam, jaipur, Rajasthan, 302006' info2='Arihant Tower, Near Pioneer Hospital Station Road , Sikar, Rajasthan- 332001' info3='Shri Krishna Temple, near Bypass Road, Madrela Road, Chirawa Dist., Jhunjhunu, Rajasthan- 333026'/>
 <OurNetwork h1='Shri Dev Automobile' info1='171/298, Haldi Ghati Marg, Sector- 17, Pratap Nagar, Sanganer, Jaipur, Rajasthan- 302033' h2='Exideplus Lubricant Private Limited' info2='01, ward No.8, Radawas, Main Bus Stand, Jaipur, Rajasthan, 302016' h3='Saraj Motors' info3='B-A Plot No.- 130, Bhai Vihar, Losal- 332025'/>
