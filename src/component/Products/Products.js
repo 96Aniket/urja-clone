@@ -1,8 +1,7 @@
 
 import '../Products/Product.css'
 import 'bootstrap/dist/css/bootstrap.css'
-import scooty from './scooty'
-import bike from './bike.png'
+
 export default function Card(props) {
   return (
     <>
@@ -32,10 +31,10 @@ export default function Card(props) {
   </div>
 
 
-        < img className='scooter' src={scooty} />
+        < img className='scooter' src={props.pic} />
       </div>
       <div>
-      < img className='scooty' src={bike} />
+      < img className='scooty' src={props.picture} />
     </div>
     <div className='head'>
          <h1><b><u>E-zess</u></b></h1>
