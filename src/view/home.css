@@ -45,4 +45,5 @@ body{
 nav{
     padding: 0;
     margin: 0;
+    z-index: top 0;
 }

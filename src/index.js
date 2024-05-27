@@ -1,15 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Home from './component/home';
+import {Reg} from '../src/component/Career/Registration';
+import OurNetwork from '../src/component/Presence/OurNetwork';
 
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
   const routes=createBrowserRouter([
     {
       path:'/',
-      element:<Home/>
+      element:<Home/>,
+      
+    },
+    {
+      path:'/reg',
+      element:<Reg/>,
+    },
+    {
+      path:'/Ournetwork',
+      element:<OurNetwork/>
     }
   ])
 
