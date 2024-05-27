@@ -1,6 +1,6 @@
 import './About.css';
-import img2 from './solar.jpg';
-import img from './windmil.png';
+import img2 from './image/solar.jpg';
+import img from './image/windmil.png';
 function About() {
   return (
   <>

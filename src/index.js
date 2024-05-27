@@ -27,6 +27,7 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom';
       path:'/Card',
       element:<Card/>
     }
+   
     
   ])
 
