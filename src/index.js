@@ -6,6 +6,9 @@ import Home from './component/home';
 import { Form } from '../src/view/Career';
 import { Network } from  '../src/view/Presence';
 import Card from '../src/component/Products/Products';
+import About from './component/About/About';
+import Catelogue from './component/Catelogue/Catelogue';
+import Contact from './component/Contact/Contact';
 
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 
@@ -26,6 +29,18 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom';
     {
       path:'/Card',
       element:<Card/>
+    },
+    {
+      path:'/About',
+      element:<About/>
+    },
+    {
+      path:'/Catelogue',
+      element:<Catelogue/>
+    },
+    {
+      path:'/Contact',
+      element:<Contact/>
     }
    
     
