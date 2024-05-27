@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import img from '../image/career-img.jpg'
+import img1 from '../image/career-img.jpg'
 import { Navbar } from '../view/Navbar'
-import { Reg } from "../Component/Career/Registration";
+import { Reg } from '../component/Career/Registration'
 
 
 export function Form() {
     return (
         <>
             <Navbar />
-            <Reg img={img} />
+            <Reg img={img1} />
 
         </>
     )
