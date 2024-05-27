@@ -7,6 +7,7 @@ import {Reg} from '../src/component/Career/Registration';
 import { OurNetwork } from  '../src/component/Presence/OurNetwork';
 
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
+
   const routes=createBrowserRouter([
     {
       path:'/',
@@ -21,6 +22,7 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom';
       path:'/Ournetwork',
       element:<OurNetwork/>
     }
+    
   ])
 
 
