@@ -1,6 +1,6 @@
 import './Catelogue.css';
-import img2 from './image/solar.jpg';
-import img from './image/windmil.png';
+import img2 from '../image/solar.jpg';
+import img from '../image/windmil.png';
 function Catelogue() {
   return (
   <>
