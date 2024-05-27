@@ -1,5 +1,5 @@
 
-import '../Products/Product.css'
+import './Product.css'
 import 'bootstrap/dist/css/bootstrap.css'
 
 export default function Card(props) {
