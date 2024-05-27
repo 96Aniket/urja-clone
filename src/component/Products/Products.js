@@ -1,7 +1,7 @@
-import scooterbanner from './scooterbanner.jpeg';
+import scooterbanner from './scooterbanner';
 import '../Products/Product.css'
 import 'bootstrap/dist/css/bootstrap.css'
-import scooty from './scooty.png'
+import scooty from './scooty'
 import bike from './bike.png'
 export default function Card() {
   return (
