@@ -1,6 +1,7 @@
 
 import { Navbar } from '../view/Navbar';
 import Carousel from '../view/Carousel';
+import { Inform } from '../view/inform';
 
 
 export default function Home(){
@@ -8,6 +9,7 @@ export default function Home(){
  <>
   <Navbar />
   <Carousel />
+  <Inform/>
   </>
   );
 }
