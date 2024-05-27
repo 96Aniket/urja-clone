@@ -8,6 +8,7 @@ import { Network } from  '../src/view/Presence';
 import Card from '../src/component/Products/Products';
 
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
+
   const routes=createBrowserRouter([
     {
       path:'/',
@@ -26,6 +27,7 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom';
       path:'/Card',
       element:<Card/>
     }
+    
   ])
 
 

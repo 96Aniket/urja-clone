@@ -1,4 +1,4 @@
-import scooterbanner from '../component/image/scooterbanner.jpeg';
+import scooterbanner from '../scooterbanner.jpeg';
 import '../Products/Product.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import scooty from '../component/image/scooty.png'
