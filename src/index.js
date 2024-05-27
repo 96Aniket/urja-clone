@@ -5,7 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import Home from './component/home';
 import {Reg} from '../src/component/Career/Registration';
 import OurNetwork from '../src/component/Presence/OurNetwork';
-import Contact from '../src/component/Contact/Contact'
+
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 
   const routes=createBrowserRouter([
