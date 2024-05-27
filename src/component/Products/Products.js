@@ -1,14 +1,14 @@
-import scooterbanner from './scooterbanner';
+
 import '../Products/Product.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import scooty from './scooty'
 import bike from './bike.png'
-export default function Card() {
+export default function Card(props) {
   return (
     <>
       <div className='card'>
 
-        <img className='img' src={scooterbanner} />
+        <img className='img' src={props.img1} />
       </div>
 
       <div className='H1'>
