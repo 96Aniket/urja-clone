@@ -1,14 +1,15 @@
-// import React from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import './Contact.css';
+import img2 from '../image/solar.jpg';
+import img from '../image/windmil.png';
 
 import Catelogue from '../Components/Catalogue/Catelogue';
-// import App from './App';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Catelogue/>
+  <Catelogue img1={img2} img2={img}/>
   
 );
 

@@ -1,10 +1,9 @@
 import './About.css';
-import img2 from '../image/solar.jpg';
-import img from '../image/windmil.png';
-function About() {
+
+function About(props) {
   return (
   <>
-  <div ><img src={img2} className='crousal'/></div>
+  <div ><img src={props.img1} className='crousal'/></div>
     <div className='container'>
       
        <div className='text'>
@@ -44,7 +43,7 @@ function About() {
                </p>
           </div>
           <div className='img'>
-                     <img src={img}></img>
+                     <img src={props.img2}></img>
 
                      <p>
                      Our team comprises of seasoned professionals with a proven track record in design and
