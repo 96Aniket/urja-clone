@@ -21,11 +21,8 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom';
     {
       path:'/Ournetwork',
       element:<OurNetwork/>
-    },
-    {
-      path:'/Contact',
-      element:<Contact/>
     }
+   
     
   ])
 
