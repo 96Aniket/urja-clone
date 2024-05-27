@@ -1,7 +1,7 @@
 import './Contact.css';
-import location from './location.png'
-import tel from './te.jpg'
-import email from './mail.jpg'
+// import location from './location.png'
+// import tel from './te.jpg'
+// import email from './mail.jpg'
 
 function Contact(props) {
   return (
@@ -77,9 +77,9 @@ function Contact(props) {
     </div >
     </div>
     <div  className='Mailb'>
-      <h2>For Dealer and Distributorship Enquiry</h2><br></br>
-    <h4>EMAIL ID</h4>
-    <span>marketing@urjaglobal.in</span>
+      <h2 >For Dealer and Distributorship Enquiry</h2><br></br>
+    <h4 className='mailid'>EMAIL ID</h4>
+    <span className='mailid'>marketing@urjaglobal.in</span>
      </div> 
      <div  className='Mailb'>
       <h2>For Grievances/ Investor Communications</h2><br></br>
