@@ -1,8 +1,8 @@
-import scooterbanner from './scooterbanner.jpeg';
-import './Product.css';
+import scooterbanner from '../component/image/scooterbanner.jpeg';
+import '../Products/Product.css'
 import 'bootstrap/dist/css/bootstrap.css'
-import scooty from './scooty.png'
-import bike from './bike.png'
+import scooty from '../component/image/scooty.png'
+import bike from '../component/image/bike.png'
 export default function Card() {
   return (
     <>
@@ -52,8 +52,6 @@ export default function Card() {
       <button type='text' className='imge'>Know More</button>
 <button type='text' className='imge'>Book Now</button>
   </div>
-  {/* <button type='text' className='imge'>Know More</button>
-<button type='text' className='imge'>Book Now</button> */}
 
     </>
 
