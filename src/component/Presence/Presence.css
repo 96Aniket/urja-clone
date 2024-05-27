@@ -1,0 +1,43 @@
+.mainheading{
+
+    text-align: center;
+    color: #f97316;
+    font-family: sans-serif;
+    font-weight: 700;
+    
+    
+    }
+    .line{
+        margin-left: 500px;
+        font-size: 80px;
+        margin-top: -100px;
+    }
+
+
+.col{
+background-color: rgb(243, 243, 243);
+margin: 10px;
+padding: 20px;
+
+
+}
+.lname{
+    color: #f97316;
+    font-weight: 700;
+}
+.linfo{
+    font-weight: 600; 
+}
+.row{
+    margin-left: -90px;
+    margin-right: -90px;
+}
+.des{
+    font-weight: 500;
+    margin-left: 350px;
+}
+.mainimg{
+    width: 1400px;
+    height: 400px;
+    margin-bottom: 20px;
+}
