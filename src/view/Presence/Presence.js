@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { OurNetwork, Section } from '../../component/Presence/OurNetwork';
-import img from '../image/ournetwork-img.jpg'
+import img from '../Presence/ournetwork-img.jpg'
 import { Navbar } from '../Navbar';
 import { Footer } from '../footer';
 
