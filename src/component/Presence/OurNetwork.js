@@ -1,4 +1,4 @@
-import ''
+import '../src/view/Presence/Presence.css'
 import 'bootstrap/dist/css/bootstrap.css'
 
 
