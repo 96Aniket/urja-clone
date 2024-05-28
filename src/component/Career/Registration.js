@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import './src/view/Career/Career.css'
+import '../../view/Career/Career.css'
 
 export function Reg(props) {
     return (
