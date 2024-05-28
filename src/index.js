@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 
 
 import Home from './component/home';
-import { Form } from '../src/view/Career';
-import { Network } from  '../src/view/Presence';
+import { Form } from '../src/view/Career/Career';
+import { Network } from  '../src/view/Presence/Presence';
 import Card from '../src/component/Products/Products';
 import About from './component/About/About';
 import Catelogue from './component/Catelogue/Catelogue';
