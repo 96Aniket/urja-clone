@@ -32,7 +32,7 @@ export  function Footer (){
 
 
         <div className='fot'><ul>Subscribe to our Newsletter</ul>
-        <li><input type='text' placeholder='Enter your email address'></input></li>
+        <li><input className='hii' type='text' placeholder='Enter your email address'></input></li>
         <ul>Follow Us</ul>
         <img src={Insta} className='ss' alt="..."/>
         </div>
