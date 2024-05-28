@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { OurNetwork, Section } from '../component/Presence/OurNetwork';
+import { OurNetwork, Section } from '../../component/Presence/OurNetwork';
 import img from '../image/ournetwork-img.jpg'
-import { Navbar } from './Navbar';
+import { Navbar } from '../Navbar';
+import { Footer } from '../footer';
+
 
 export function Network(){
     return(
@@ -15,7 +17,7 @@ export function Network(){
 <OurNetwork h1='Zaffar Brothers' info1='Barabanti, Uttar Pradesh' h2='Alutech' info2='52E/ 2A/ 42, Tashkand Marg, Civil Lines, Pyaragraj, Uttar Pradesh- 211001' h3='Hindon Traders' info3='169, Sanjay Colony, Arthala, Mohan Nagar, Ghaziabad, 201007'/>
 <OurNetwork h1='Loodo Ventures Pvt. Ltd.' info1='JNC Plot No.6, Sector- 5, Vaishali- 110025' h2='Shree Motors' info2='A/P Dudhgaon, Tal- miraj,Sangali, Maharashtra- 416316' h3='Mansa Automobile' info3='1/1/1 Plot 1, behind Jyoti farm, Opposite Essar Petrol pump, Kadambvan Society, Ambad Link Road, Nashik, Maharashtra- 422007'/>
 <OurNetwork h1='Manakkunel Green Ventures' info1='13/ 113, 114, Kagingada chethipuzha kottayam, Kerala- 32' h2='Shri ram Enterprises' info2='JP Chowk Jai Prakash Nagar, Siwan, Bihar- 841226' h3='Stom Electric' info3='Bargarh, Brahmabihar, near Ram Mandir goru market road, Odisha- 768028'/>
-
+<Footer/>
 </>
 
     )
